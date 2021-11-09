@@ -1,0 +1,49 @@
+/*sourced from https://unsplash.com/photos/jR4Zf-riEjI*/
+
+body{
+    background-image: url('../images/background-1.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+       opacity: 1;
+    }
+}
+
+
+/*hero styling*/
+
+.hero-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeIn 0.7s;
+}
+
+.hero{
+    margin-top: 15%;
+    background: rgba(0,0,0,0.7);
+    width: 75%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.hero-content button{
+    background: rgba(0,0,0,0.7);
+    margin-top: 5%;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+
+/* slow fade: https://www.codegrepper.com/code-examples/css/how+to+make+slow+fade+appear+in+css */
