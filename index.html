@@ -11,12 +11,77 @@
     <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 <body>
-    <div class="hero-content">
-        <section class="hero">
-            <h1>Hello, I am Kaitlyn Milliken, a Junior Full Stack Developer</h1>
+    <!--Hero-->
+    <div class="hero">
+        <img src="assets/images/profile.png" class="profile"/>  
+        <section class="hero-content">
+            <h1>Hello!
+                <br/>
+                I am Kaitlyn Milliken, a Junior Full Stack Developer</h1>
         </section>
-
-        <button>Let's Go!</button>
     </div>
+
+    <div class="info-buttons">
+        <nav>
+            <a href="#skills"><button>Skills</button></a>
+            <a href="#projects"><button>Projects</button></a>
+            <a href="#contact-me"><button>Contact Me</button></a>
+        </nav>
+    </div>
+
+    <!--Skills-->
+    <section id="skills">
+        <span>⭐Node.JS</span>
+        <span>⭐Javascript</span>
+        <span>⭐JQuery</span>
+        <span>⭐HTML5</span>
+        <span>⭐CSS3</span>
+    </section>
+
+    <!--Project Show-->
+    <div id="projects">
+        <section class="project-spotlight">
+            <h2>Run Buddy</h2>
+            <img src="./assets/images/step-3.svg" class="run-buddy"/>
+            <span>
+                In this project, you will see an example of a website written for the company, Run Buddy.
+                Delievering on client requests, this well written website is a prime example of work to come.
+                <br />
+                <a href="https://github.com/KaitlynMilliken/run-buddy">See more here...</a>
+            </span>
+        </section>
+        <div class="sidebar-projects">
+            <section class="mini-project">
+                <h3>⭐Javascript To-Do Project</h3>
+                    <a href="https://github.com/KaitlynMilliken/To-Do-List">
+                        A simple "to do list" using Javascript
+                    </a>
+            </section>
+            <section class="mini-project">
+                <h3>⭐Robot Gladiators</h3>
+                <a href="https://github.com/KaitlynMilliken/robot-gladiators">
+                    A fun robot fighting game for all
+                </a>
+            </section>
+            <section class="mini-project">
+                <h3>⭐This Portfilo!</h3>
+                <a href="https://github.com/KaitlynMilliken/Portfolio">
+                    This portfilo is also listed!
+                </a>
+            </section>
+        </div>
+    </div>
+
+    <!-- Contact Me -->
+    <section id="contact-me">
+        <h2>Contact Me!</h2>
+        <ul>
+            <li>Kaitlyn Milliken</li>
+            <li>|</li>
+            <li>kaitlynmilliken@gmail.com</li>
+            <li>|</li>
+            <li>(864) 419-5147</li>
+        </ul>
+    </section>
 </body>
 </html>
